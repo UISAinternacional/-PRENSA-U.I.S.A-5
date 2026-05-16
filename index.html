@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRENSA UISA-4</title>
+
+    <!-- Etiquetas Open Graph mejoradas para vista previa en redes sociales -->
+    <meta property="og:title" content="Jesús enseñó el ayuno, hoy la ciencia moderna descubrió un poderoso mecanismo oculto en el cuerpo humano gracias al ayuno del que predicó Jesús." />
+    <meta property="og:description" content="En los últimos años, el ayuno ha dejado de ser solamente una práctica espiritual o cultural para convertirse también en un tema de interés científico y médico." />
+    <meta property="og:image" content="https://i.ibb.co/Zpt0X49n/Copilot-20260515-232028.png" />
+    <meta property="og:image:type" content="https://i.ibb.co/Zpt0X49n/Copilot-20260515-232028.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:url" content="https://uisainternacional.github.io/PRENSA-U.I.S.A-5/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="es_ES" />
+    <meta property="og:site_name" content="Unidad Internacional del Saber y Asociados" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Jesús enseñó el ayuno, hoy la ciencia moderna descubrió un poderoso mecanismo oculto en el cuerpo humano gracias al ayuno del que predicó Jesús." />
+    <meta name="twitter:description" content="En los últimos años, el ayuno ha dejado de ser solamente una práctica espiritual o cultural para convertirse también en un tema de interés científico y médico." />
+    <meta name="twitter:image" content="https://i.ibb.co/Zpt0X49n/Copilot-20260515-232028.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Georgia&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Georgia', serif;
+            background: linear-gradient(to bottom, #ffffff, #f1f1f1);
+            color: #111;
+            padding-top: 120px;
+        }
+
+        header {
+            background-color: #000;
+            color: white;
+            padding: 20px;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 10;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo-container img.logo {
+            max-height: 50px;
+            margin-right: 15px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(255, 255, 255, 0.2);
+        }
+
+        header h1 {
+            font-size: 1.8rem;
+            font-family: 'Merriweather', serif;
+            margin: 0;
+            font-weight: 700;
+            animation: fadeInDown 2s ease-out;
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        section {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #ffffffcc;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            border-bottom: 1px solid #ccc;
+            text-align: justify;
+            line-height: 1.6;
+            transition: opacity 2s ease-in-out, transform 2s ease-in-out;
+            opacity: 0;
+            transform: translateY(30px);
+        }
+
+        section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        section h1, section h2 {
+            font-family: 'Merriweather', serif;
+            font-weight: bold;
+            color: #333;
+            margin-top: 40px;
+            margin-bottom: 20px;
+        }
+
+        section p {
+            margin-bottom: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin: 30px 0;
+            perspective: 1000px;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border: 5px solid #000;
+            border-radius: 12px;
+            transition: opacity 2.5s ease-in-out, transform 2.5s ease-in-out;
+            opacity: 0;
+            transform: rotateY(-15deg) scale(0.95);
+        }
+
+        .image-container img.visible {
+            opacity: 1;
+            transform: rotateY(0deg) scale(1);
+        }
+
+        footer {
+            background-color: #000;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            box-shadow: 0 -2px 6px rgba(0,0,0,0.3);
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 1.4rem;
+            }
+
+            section {
+                padding: 30px 15px;
+            }
+
+            footer {
+                font-size: 0.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="logo-container">
+        <img src="https://i.ibb.co/yN93Dk7/Dise-o-sin-t-tulo-6.jpg" alt="Logo UISA" class="logo" />
+        <h1>PRENSA U.I.S.A · Crónicas · Artículos · Boletín ·</h1>
+    </div>
+</header>
+
+<!-- Aquí continúa el contenido de la página -->
+
+</body>
+</html>
+
+
+<section>
+    <h1>Jesús enseñó el ayuno, hoy la ciencia moderna descubrió un poderoso mecanismo oculto en el cuerpo humano gracias al ayuno del que predicó Jesús.</h1>
+
+    <div class="image-container">
+        <img  src="https://i.ibb.co/Zpt0X49n/Copilot-20260515-232028.png" alt="..." id="mainImage">
+    </div>
+<p>Por Julio Pablo kleterkoff | 16 de Mayo de 2026</p>
+
+  <h2>¿cómo funciona el proceso natural de “limpieza” del cuerpo?</h2>
+
+    
+    
+    <p>En los últimos años, el ayuno ha dejado de ser solamente una práctica espiritual o cultural 
+      para convertirse también en un tema de interés científico y médico. Diversos estudios han 
+      comenzado a analizar los efectos que determinados períodos de ayuno pueden tener sobre el 
+      organismo, especialmente en relación con un proceso conocido como “autofagia”, considerado 
+      por muchos especialistas como uno de los mecanismos naturales más importantes de regeneración
+       celular.</p>
+
+<div>
+ 
+
+ <h2>¿Qué es la autofagia? </h2>
+
+
+
+<p>La palabra autofagia proviene del griego y significa literalmente “comerse a uno mismo”. Se trata de un mecanismo biológico mediante el cual las células eliminan componentes dañados, envejecidos o innecesarios para reciclarlos y reutilizar energía.
+
+Cuando el cuerpo pasa varias horas sin recibir alimentos, los niveles de glucosa e insulina disminuyen y el organismo comienza a activar procesos internos de reparación. Es allí donde la autofagia cobra protagonismo.
+
+Según investigaciones científicas, este mecanismo ayuda a limpiar residuos celulares, favoreciendo un mejor funcionamiento del cuerpo y contribuyendo al equilibrio metabólico.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<iframe width="900" height="405" src="https://www.youtube.com/embed/u-5-rVigu9w?si=S5EgbMIF7ifdQ-D_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+
+
+<h2>Una práctica ancestral que vuelve al centro del debate</h2>
+
+
+
+
+<p>Desde tradiciones religiosas antiguas hasta investigaciones 
+  modernas, el ayuno continúa despertando interés en todo el mundo. Mientras la ciencia sigue estudiando sus efectos a largo plazo, la autofagia aparece como uno de los procesos biológicos más fascinantes relacionados con la capacidad natural del cuerpo para repararse y adaptarse.</p>
+
+
+<img width="900" height="505" src="https://i.ibb.co/gbwN9qqv/Copilot-20260515-233233.png" alt="Imagen adaptable" class="imagen-responsiva">
+
+
+<h2>El interés científico detrás del fenómeno</h2>
+
+<p>La relevancia de la autofagia ganó notoriedad internacional cuando el científico japonés Yoshinori Ohsumi recibió el Premio Nobel de Medicina en 2016 por sus investigaciones sobre este mecanismo celular.
+
+Sus descubrimientos permitieron comprender mejor cómo las células reciclan componentes internos y cómo este proceso podría influir en enfermedades neurodegenerativas, envejecimiento y trastornos metabólicos</p>
+
+
+
+<h2>Beneficios potenciales del ayuno y la autofagia</h2>
+
+
+
+<p>La autofagia y el ayuno han sido asociados a diversos beneficios potenciales para la salud. Entre ellos se destacan la regeneración celular, ya que el organismo elimina células deterioradas y recicla materiales internos favoreciendo procesos naturales de renovación; la mejora de la función cerebral, debido a que algunos estudios sugieren que ciertos tipos de ayuno podrían estimular funciones cognitivas, aumentar la claridad mental y favorecer proteínas relacionadas con la salud neuronal; beneficios metabólicos y cardiovasculares, al observarse mejoras en los niveles de azúcar en sangre, sensibilidad a la insulina y reducción de marcadores inflamatorios; el control del peso corporal, porque durante períodos sin ingerir alimentos el cuerpo utiliza reservas energéticas acumuladas; y la disminución del estrés oxidativo, proceso vinculado con una menor acumulación de daño celular causado por radicales libres, factor relacionado con el envejecimiento y diversas enfermedades.</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="fuentes-container">
+    <h3>📚 Fuentes y Referencias Científicas</h3>
+
+    <ul>
+        <li>
+            <a href="https://www.nobelprize.org/prizes/medicine/2016/press-release/" target="_blank">
+                Premio Nobel de Medicina 2016 – Yoshinori Ohsumi
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.nia.nih.gov/health/calorie-restriction-and-fasting-diets-what-do-we-know" target="_blank">
+                National Institute on Aging – Investigación sobre ayuno y salud celular
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.health.harvard.edu/blog/intermittent-fasting-surprising-update-2018062914156" target="_blank">
+                Harvard Medical School – Intermittent Fasting: Surprising Update
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.hopkinsmedicine.org/health/wellness-and-prevention/intermittent-fasting-how-it-works-and-why-it-may-help-you" target="_blank">
+                Johns Hopkins Medicine – Intermittent Fasting Benefits
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2990190/" target="_blank">
+                National Library of Medicine – Autophagy Review Study
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.cell.com/cell-metabolism/fulltext/S1550-4131(14)00062-X" target="_blank">
+                Cell Metabolism Journal – Effects of Fasting on Health and Aging
+            </a>
+        </li>
+    </ul>
+</div>
+
+<style>
+.fuentes-container{
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 28px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+    font-family: Georgia, serif;
+}
+
+.fuentes-container h3{
+    color: #111111;
+    font-size: 30px;
+    margin-bottom: 22px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #d4af37;
+}
+
+.fuentes-container ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.fuentes-container li{
+    background: #f8f8f8;
+    margin-bottom: 14px;
+    padding: 15px 18px;
+    border-radius: 10px;
+    border-left: 4px solid #d4af37;
+    transition: all 0.3s ease;
+}
+
+.fuentes-container li:hover{
+    background: #f1f1f1;
+    transform: translateX(4px);
+}
+
+.fuentes-container a{
+    color: #222222;
+    text-decoration: none;
+    font-size: 17px;
+    line-height: 1.6;
+    transition: color 0.3s ease;
+}
+
+.fuentes-container a:hover{
+    color: #b8860b;
+}
+
+@media(max-width:768px){
+
+    .fuentes-container{
+        padding: 20px;
+    }
+
+    .fuentes-container h3{
+        font-size: 24px;
+    }
+
+    .fuentes-container a{
+        font-size: 15px;
+    }
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+     <p><strong>Unidad Internacional del Saber y Asociados - 2026</strong></p>
+   </section>
+
+<div class="visitas-fija" id="contadorVisitas">
+    Más de <strong>1.000 personas</strong> han visitado este sitio.
+</div>
+
+<footer>
+    &copy; 2026 unidad Internacional del Saber y Asociados. Todos los derechos reservados.
+</footer>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const img = document.getElementById("mainImage");
+        const section = document.querySelector("section");
+        const contador = document.getElementById("contadorVisitas");
+
+        function checkVisibility() {
+            const rectImg = img.getBoundingClientRect();
+            const rectSec = section.getBoundingClientRect();
+            const windowHeight = window.innerHeight;
+
+            if (rectImg.top <= windowHeight) {
+                img.classList.add("visible");
+            }
+            if (rectSec.top <= windowHeight) {
+                section.classList.add("visible");
+                contador.classList.add("visible");
+            }
+        }
+
+        window.addEventListener("scroll", checkVisibility);
+        checkVisibility();
+    });
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
